@@ -1,0 +1,398 @@
+:root{
+    --colorblue:#004d98;
+    --colorRed: #db0030;
+    --colorPurple: #a50044;
+    --colorYellow:#ffed02;
+    --colorGold:#edbb00;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    padding: 20px;
+    background-color: var(--colorblue);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+}
+nav ul li {
+    
+    margin-right: 20px;
+
+    
+}
+nav ul li:hover{
+
+    background-color: rgba(255, 255, 255, 0.311);
+    
+}
+.logo{
+    flex: 30%;
+}
+.menu{
+    flex: 70%; 
+    padding-left: 50%;
+}
+.menu a{
+    color: var(--colorGold);
+    text-decoration: none;
+}
+.menu a:hover{
+    color: var(--colorYellow) ;
+}
+.introdução{
+    display: flex;
+    background-image: linear-gradient(#004d98,#a50044,#db0030);
+    height: 640px;
+}
+.intro-txt{
+    flex: 50%;
+    padding: 40px;
+}
+.pg-intro{
+    margin-top: 100px;
+    color: #edbb00;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.t-intro{
+    color: #d80700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Alkatra', cursive;
+}
+.pg2-intro{
+    color: #777474d0;
+    padding-top: 5px;
+}
+.botao-intro{
+    background-color: var(--colorblue);
+    width: 135px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.botao-intro:hover{
+    font-weight: 600;
+    background-image: linear-gradient(45deg,#004d98,#a50044,#db0030);
+    border:1px solid #ffee0279;
+    transition: all 0.2s;
+}
+.intro-img{
+    flex: 50%;
+    text-align: center;
+}
+
+.intro-img img{
+    margin-top: 180px;
+    transition: all 0.3s;
+    max-width: 100%;
+}
+.squad{
+    height: 800px;
+}
+.squad h1{
+    color: var(--colorblue);
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Alkatra', cursive;
+    text-decoration: underline 6px var(--colorPurple);
+    text-underline-offset: 15px;
+}
+.cor{
+    color: var(--colorPurple);
+}
+.caixa-img-jogadores{
+
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 80px;
+
+}
+
+
+
+.jogadores{
+
+    border: 1px solid rgba(93, 93, 93, 0.49);
+    width: 150px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all ease-in 0.3s;
+
+}
+.jogadores:hover{
+    transform: scale(1.1);
+}
+.jogadores img{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+
+
+}
+.p{
+    color: #808080a7;
+    padding-top: 10px;
+}
+.side-bar{
+    width: 100%;
+    height: 750px;
+    background-color: #004d98;
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: none;
+
+}
+#menu{
+    display: none;
+    background-color: #a50044;
+    border-radius: 5px;
+}
+input{
+    margin-top: 20px;
+}
+.store{
+    height: 1150px;
+    width: 100%;
+    padding: 20px;
+}
+
+.store-titulo{
+    font-size: 3rem;
+    font-family: 'Alkatra', cursive;
+    text-align: center;
+    color: #edbb00;
+    text-decoration: underline 8px #edbb00;
+    text-underline-offset: 10px;
+
+}
+
+.caixa-compra{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 100px;
+}
+
+.card-compra{
+    border-radius: 10px;
+    width: 250px;
+    height: 400px;
+    max-width: 100%;
+}
+.card-compra img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    max-width: 100%;
+}
+.card-pg{
+    text-align: center;
+    padding-top: 30px;
+}
+.socio{
+    height: 750px;
+    border: 1px solid black;
+    background-color: #3a3a3a;
+}
+.socio h1{
+    font-size: 3rem;
+    color: #db0030;
+    text-align: center;
+    text-decoration: underline #ffed02 8px;
+    text-underline-offset: 8px;
+    padding-top: 20px;
+
+}
+.caixa-socio{
+    display: flex;
+    margin-top: 60px;
+}
+.plano-básico{
+    
+    flex: 50%;
+}
+.plano-básico aside{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: var(--colorblue);
+    margin: auto;
+    max-width: 100%;
+}
+.plano-premium{
+    justify-content: center;
+    flex: 50%;
+   
+}
+.plano-premium aside{
+    width: 400px;
+    height: 500px;
+    background-color: var(--colorPurple);
+    margin: auto;
+    border-radius: 20px;
+    max-width: 100%;
+}
+.lista-plano{
+    list-style-image: url(/imagens/verifica.png);
+    list-style-type: "\2714";
+    margin-top: 60px;
+}
+#lista-basico{
+    list-style-image: url(/imagens/verifica-cinza.png);
+    list-style-type: "\2714";
+}
+#botao-basico{
+
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #808080a7;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
+#botao-basico:hover{
+    background-color: #9d9d9da7;
+}
+#botao-premium{
+
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #edbb00;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+
+}
+#botao-premium:hover{
+    background-color: #ffed02;
+}
+footer{
+  padding: 20px;  
+  background-color: #004d98;
+  height: 350px;
+}
+.caixa-footer{
+    display: flex;
+}
+.logo-footer{
+
+    flex: 20%;
+    border-right: 1px solid #3a3a3a;
+    
+
+}
+.sac{
+    
+    flex: 10%;
+    border-right: 1px solid #3a3a3a;
+    
+
+}
+.sac ul{
+
+    list-style-position: inside;
+    list-style-type: none;
+    padding-left: 30px;
+
+}
+.sac ul li{
+
+    padding-top: 5px;
+
+}
+.sac2{
+
+    flex: 10%;
+    border-right: 1px solid #3a3a3a;
+    
+
+}
+.sac2 ul{
+    padding-left: 30px;
+    list-style-position: inside;
+    list-style-type: none;
+
+}
+.sac2 ul li{
+
+    padding-top: 5px;
+
+}
+.contato{
+
+    flex: 50%;
+    padding-left: 10px;
+    
+    
+
+}
+.contato input{
+    background-color: var(--colorPurple);
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.contato input:hover{
+    background-color: #bd0753;
+}
+.li{
+    color: #ffed02;
+    
+}
+.li:hover{
+    text-decoration: underline #ffed02;
+}
+a{
+    text-decoration: none;
+}
+#subir{
+    padding-top: 10px;
+    text-align: center;
+    background-color: #bd0753;
+    width: 50px;
+    height: 50px;
+     border-radius: 50%;
+     color: white;
+     float: right;
+     margin-top: 40px;
+     margin-right: 10px;
+}
+.pg-plano{
+    flex: 50%; 
+    padding-left: 50px ;
+}

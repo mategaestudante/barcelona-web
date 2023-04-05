@@ -1,0 +1,263 @@
+@media screen and (max-width:1147px){
+    .store{
+        height: 1700px;
+    }
+}
+@media screen and (max-width:1117px){
+    .squad{
+        height: 1000px;
+    }
+}
+@media screen and (max-width:1085px){
+    .intro-txt{
+        flex: 50%;
+        padding: 20px;
+    }
+}
+@media screen and (max-width:1005px){
+    .intro-txt{
+        flex: 50%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:965px){
+
+    .pg-intro{
+        font-size: 1.5rem;
+    }
+
+}
+@media screen and (max-width:900px){
+    nav{
+        display: block;
+    }
+    #menu{
+        display: block;
+        float: right;
+        position: relative;
+        bottom: 65px;
+    }
+    .side-bar{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(/imagens/barcelonaa.png);
+        background-repeat: no-repeat;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .introdução{
+        display: block;
+        height: 645px;
+    }
+    .intro-img img{
+
+        margin-top: 10px;
+
+    }
+    .intro-txt{
+        padding: 40px
+    }
+    .socio{
+        height: 1500px;
+    }
+    .caixa-socio{
+        display: block;
+    }
+    .plano-premium{
+        margin-top: 120px;
+    }
+}
+@media screen and (max-width:760px){
+    .caixa-img-jogadores{
+        gap: 10px;
+    }
+    .squad{
+        height: 750px;
+    }
+}
+@media screen and (max-width:747px){
+    .store{
+        height: 2800px;
+    }
+}
+@media screen and (max-width:737px){
+    .squad{
+        height: 1000px;
+    }
+}
+@media screen and (max-width:695px){
+    footer{
+        height: 650px;
+    }
+    .caixa-footer{
+        display: block;
+    }
+    .logo-footer{
+        border-right: none;
+    }
+    .sac{
+        padding-left: 0;
+        border-right: none;
+        margin-top: 20px;
+    }
+    .sac2{
+        padding-left: 0;
+        border-right: none;
+        margin-top: 20px;
+    }
+    .sac2 ul{
+        padding-left: 0;
+        list-style-position: inside;
+        list-style-type: none;
+    
+    }
+    .sac ul{
+        padding-left: 0;
+    }
+    .contato{
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    #subir{
+        background-color: #bd0753;
+         border-radius: 50%;
+         color: white;
+         float: right;
+         margin-top: 100px;
+         margin-right: 10px;
+    }
+}
+@media screen and (max-width:607px){
+    .introdução{
+        height: 700px;
+    }
+    .side-bar{
+        height: 805px;
+    }
+}
+@media screen and (max-width:560px){
+    .pg-intro{
+        font-size: 1.2rem;
+    }
+    .t-intro{
+        font-size: 2.4rem;
+    }
+    .intro-img img{
+        max-width: 100%;
+    }
+    .introdução{
+        height: 750px;
+    }
+    .side-bar{
+        height: 855px;
+    }
+}
+@media screen and (max-width:547px){
+    .squad{
+        height: 1300px
+    }
+}
+
+@media screen and (max-width:487px){
+    .squad{
+        height: 1750px;
+    }
+}
+@media screen and (max-width:465px){
+    .intro-txt{
+        padding: 20px;
+    }
+    .pg-intro{
+        font-size: 1rem;
+    }
+    .t-intro{
+        font-size: 1.8rem;
+    }
+    .squad h1{
+        font-size: 2rem;
+    }
+    .store-titulo{
+        font-size: 2rem;
+    }
+    .socio h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:429px){
+    .side-bar{
+        padding-bottom: 200px;
+    }
+}
+@media screen and (max-width:420px){
+    .socio h1{
+        line-height: 50px;
+    }
+    .side-bar{
+        padding-bottom: 200px;
+    }
+}
+@media screen and (max-width:414px){
+    .introdução{
+        height: 700px ;
+    }
+    .side-bar{
+        height: 805px;
+    }
+    .intro-img img{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:391px){
+    .side-bar{
+        padding-bottom: 250px;
+    }
+}
+@media screen and (max-width:365px){
+    .pg-intro{
+        font-size: 0.8rem;
+    }
+    .t-intro{
+        font-size: 1.5rem;
+    }
+    .pg-plano{
+        padding-left: 0;
+    }
+    .side-bar{
+        padding-bottom: 200px;
+    }
+}
+
+@media screen and (max-width:327px){
+
+    .squad{
+        height: 3350px;
+    }
+
+}
+
+@media screen and (max-width:321px){
+    .side-bar{
+        padding-bottom: 350px;
+    }
+    .squad{
+        height: 3300px;
+    }
+    
+}
+@media screen and (max-width:310px){
+    .squad{
+        height: 3400px;
+    }
+}
+@media screen and (max-width:305px){
+    .intro-txt{
+        padding: 5px;
+    }
+}
